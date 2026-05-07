@@ -33,7 +33,7 @@ export default function ThinkingBubble() {
           />
         ))}
         <span className="ml-1.5 text-[10px] tracking-[0.28em] text-amber-200/90 font-bold">
-          STAND ACTIVATING
+          STAND ACTIVÁNDOSE
         </span>
       </div>
     </motion.div>

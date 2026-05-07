@@ -54,7 +54,7 @@ export default function Composer({
             disabled={disabled}
             onChange={(e) => onChange(e.target.value)}
             onKeyDown={onKey}
-            placeholder="Speak your truth, JoJo..."
+            placeholder="Di tu verdad, JoJo..."
             rows={1}
             className="flex-1 resize-none bg-transparent outline-none text-zinc-100 placeholder:text-amber-200/40 text-[15px] leading-snug px-3 py-2 max-h-32"
           />
@@ -63,8 +63,8 @@ export default function Composer({
         </div>
 
         <div className="flex items-center justify-between mt-2 px-1 text-[10px] tracking-[0.22em] font-bold text-amber-200/70">
-          <span>ENTER &nbsp;//&nbsp; SEND</span>
-          <span>SHIFT + ENTER &nbsp;//&nbsp; NEW LINE</span>
+          <span>ENTER &nbsp;//&nbsp; ENVIAR</span>
+          <span>SHIFT + ENTER &nbsp;//&nbsp; NUEVA LÍNEA</span>
         </div>
       </div>
     </div>

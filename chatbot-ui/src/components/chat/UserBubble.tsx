@@ -24,7 +24,7 @@ export default function UserBubble({
       className="self-end max-w-[78%] flex flex-col items-end gap-1.5"
     >
       <div className="text-[10px] tracking-[0.28em] font-bold text-amber-300/90">
-        YOU
+        TÚ
       </div>
       <div
         className="relative px-5 py-3.5 bg-amber-300 text-zinc-950 font-semibold text-[15px] leading-snug"

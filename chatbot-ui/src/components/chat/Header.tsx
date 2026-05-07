@@ -33,7 +33,7 @@ export default function Header() {
             className="text-amber-300 tracking-[0.18em] text-xs font-bold"
             style={{ textShadow: "2px 2px 0 #b3104a" }}
           >
-            STAND // ONLINE
+            STAND // EN LÍNEA
           </span>
           <span
             className="text-2xl font-black text-white tracking-wider mt-1"

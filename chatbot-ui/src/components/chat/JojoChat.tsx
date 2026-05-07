@@ -22,7 +22,7 @@ export default function JojoChat() {
       id: uid(),
       role: "assistant",
       cry: "BUONGIORNO!",
-      text: "I am your Stand-bound assistant. Speak — and I shall reply with the resolve of Passione.",
+      text: "Soy tu asistente ligado al Stand. Habla — y responderé con la resolución de Passione.",
       ts: Date.now(),
     },
   ]);
@@ -53,7 +53,7 @@ export default function JojoChat() {
     } catch {
       setMessages((m) => [...m, {
         id: uid(), role: "assistant",
-        cry: "WRYYYYY!", text: "The Stand connection was severed. Try again.", ts: Date.now(),
+        cry: "WRYYYYY!", text: "La conexión con el Stand fue interrumpida. Inténtalo de nuevo.", ts: Date.now(),
       }]);
     } finally {
       setThinking(false);
